@@ -1,6 +1,7 @@
 ## OpenLoop Script
 
-![Screenshot](https://github.com/user-attachments/assets/20a509e2-a1ed-44c1-a6ae-28ea829b2808)
+##Original Creator https://github.com/GzGod/openloop
+Just translate
 
 ## OpenLoop Network is a decentralized wireless network designed to enhance the delivery of internet services, making them more efficient, accessible, and rewarding for everyone.
 
