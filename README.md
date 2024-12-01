@@ -1,51 +1,36 @@
-## OpenLoop脚本
+## OpenLoop Script
 
-![微信截图_20241130162931](https://github.com/user-attachments/assets/20a509e2-a1ed-44c1-a6ae-28ea829b2808)
+![Screenshot](https://github.com/user-attachments/assets/20a509e2-a1ed-44c1-a6ae-28ea829b2808)
 
-## OpenLoop Network 是一个去中心化的无线网络，旨在增强互联网服务的交付，使其更高效、可访问性更强，并为每个人带来更多回报。
+## OpenLoop Network is a decentralized wireless network designed to enhance the delivery of internet services, making them more efficient, accessible, and rewarding for everyone.
 
-- 官方网站 [https://openloop.so/](https://openloop.so/)
-- 官方推特 [@openloop_so](https://x.com/openloop_so)
+- Official Website [https://openloop.so/](https://openloop.so/)
+- Official Twitter [@openloop_so](https://x.com/openloop_so)
 
-## **功能**
+## **Features**
 
-- **自动注册**
-- **加载现有Token**：如果你已经注册了账户，可以在脚本内选2登录来读取Token。
-- **自动Ping**
-- **自动推荐**
-- **支持多账户**
-- **支持代理**
+- **Automatic Registration**
+- **Load Existing Token**: If you have already registered an account, you can select option 2 in the script to log in and retrieve the Token.
+- **Automatic Ping**
+- **Automatic Referral**
+- **Multi-account Support**
+- **Proxy Support**
 
-## **要求**
+## **Requirements**
 
-- **Python环境**：确保已安装python环境
+- **Python Environment**: Make sure you have Python installed.
 
-## **如果使用代理的话请确保账户数量和代理数量一致 不使用代理无视这条**
+## **If using proxies, ensure the number of accounts matches the number of proxies. Ignore this if not using proxies.**
 
-如果你已经有账户，请把账号密码以格式为`example1@email.com,password1`的方式放入`accounts.txt`
+If you already have accounts, save the account credentials in the format `example1@email.com,password1` in `accounts.txt`.
 
-将你的代理放入`proxy.txt`文件中，格式为`http://username:pass@ip:port`
+Place your proxies in `proxy.txt` in the format `http://username:pass@ip:port`.
 
+## Setup
 
-## 设置
-
-1. 克隆此仓库：
+1. Clone the repository, install dependencies, and run the script:
    ```bash
-   git clone https://github.com/Gzgod/openloop.git
-   cd openloop
-   ```
-2. 安装依赖：
-   ```bash
+   git clone https://github.com/tarawoy/noloop.git
+   cd noloop
    pip install -r requirements.txt
-   ```
-3. 运行脚本创建账户或直接获取Token：
-   ```bash
-   python bot.py 或 python3 bot.py
-   ```
-**运行后选择2注册或获取Token 注意！要把你需要注册或者登录的账号密码写入`accounts.txt`内 格式为`example1@email.com,password1`**
-
-4. 运行脚本安装节点：
-   ```bash
-   python bot.py 或 python3 bot.py
-   ```
-**运行后选择1运行节点 如选择代理后无法运行 请选择不使用代理 如不使用代理成功 那就是你代理的问题 请更换代理**
+   python bot.py OR python3 bot.py
