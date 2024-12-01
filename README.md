@@ -40,6 +40,7 @@ Place your proxies in `proxy.txt` in the format `http://username:pass@ip:port`.
    python bot.py OR python3 bot.py
 
 abcd.py is script multi proxy socks5 support, and every dead proxy will remove. Works on Multi acc to.
+Place your proxies in `proxy.txt` in the format `socks5://username:pass@ip:port`.
 
 **Optional Script**:
    ```bash
